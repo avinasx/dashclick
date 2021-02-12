@@ -1,0 +1,19 @@
+How many years of experience do you have as a back-end developer?
+What is a RESTful API and what are its advantages?
+
+What will the following JavaScript code output?
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() { alert(i); }, 1000 + i);
+}
+Numers 1, 2, 3 alerted
+Number 0 alerted 3 times
+Number 3 alerted 3 times
+
+(function() {
+  var a = b = 5;
+})();
+console.log(b);
+5
+null
+ReferenceError: b is not defined
+undefined
